@@ -242,4 +242,13 @@ document.getElementById('btn-history').addEventListener('click', function(){
 })
 
 
+// Dynamic day and calander
 document.getElementById('date').innerText = new Date().toDateString();
+
+
+// discover something to another page
+
+document.getElementById('discover-something')
+.addEventListener('click', function(){
+    window.location.href = '/questions.html';
+})
