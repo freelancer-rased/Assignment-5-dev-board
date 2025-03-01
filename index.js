@@ -227,7 +227,19 @@ document.getElementById("btn-card6").addEventListener("click", function () {
              You have completed the task ${cardTitle} at ${formattedTime}
              `;
     activityLog.appendChild(createP);
+    alert('Congrates!!! You have completed at the current task');
+   
   } else {
     console.log("no");
   }
 });
+
+
+// activity button style 
+document.getElementById('btn-history').addEventListener('click', function(){
+    
+    document.getElementById('activity-log').style.display = 'none';
+})
+
+
+document.getElementById('date').innerText = new Date().toDateString();
