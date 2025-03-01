@@ -50,7 +50,79 @@
         </div>
       </header>
     <main>
+        <h1 class="text-2xl items-center text-center font-bold mt-8 mb-4">Blogs</h1>
+        <!-- Question 01 -->
+        <div class="bg-white p-3 mb-3">
+            <h1 class="text-xl font-bold">Question-1: What are the different ways to select an element in the DOM?</h1>
+            <hr class="my-4">
+            <p>
+             GetElementsByTagName(), GetElementById(), GetElementsByClassName(), quareSelector(), quareSelectorAll()
+            </p>
+      
+        </div>
+       
+        <!-- Question 02 -->
+        <div class="bg-white p-3 mb-3">
+            <h1 class="text-xl font-bold">Question-2: What is the difference between innerHTML, innerText, and textContent ?</h1>
+            <hr class="my-4">
+            <p>
+                <span class="font-bold">innerHTML:</span> We will get the text with HTML content. In innerHTML, We can read and set HTML content inside a element. <br>
 
+                <span class="font-bold">innerText:</span> We will get only visible text. <br>
+                
+                <span class="font-bold">textContent:</span> We will get only text. 
+            </p>
+      
+        </div>
+        
+        <!-- Question 03 -->
+        <div class="bg-white p-3 mb-3">
+            <h1 class="text-xl font-bold">Question-3: What is event delegation in the DOM?</h1>
+            <hr class="my-4">
+            <p>
+                Event Delegation is a method where we can set a Event Handler (click, keyup, keydown, keyboard, mouse)
+
+            </p>
+      
+        </div>
+        
+        <!-- Question 04 -->
+        <div class="bg-white p-3 mb-3">
+            <h1 class="text-xl font-bold">Question-4: What is event bubbling in the DOM?</h1>
+            <hr class="my-4">
+            <p>
+                Event bubbling is a system to propagate of DOM event parent. After triggering a specific elements it goes to parent element. I mean after creating a specific element it goes to up. Thats a bubble. 
+            </p>
+      
+        </div>
+       
+        <!-- Question 05 -->
+        <div class="bg-white p-3 mb-3">
+            <h1 class="text-xl font-bold">Question-5: How do you create, add, and remove elements using JavaScript?</h1>
+            <hr class="my-4">
+            <p>
+                To create elements, First of all we will set a Id where we want to add an element. for example the id is ('element'). after creating element then we have  to set any innerText
+                
+                <br> 
+                <br>
+                const elements = document.getElementById ('element')
+                const createP = document.createElement('p').
+                createP.innerText = "I am a web developer" <br> <br>
+                
+                To add Elements, first of all we have to select all the classlist then we can add. <br>
+                
+                const elements = document.getElementById('element');
+                elements.classlist.add("bangladesh") <br> <br>
+                
+                To remove elements, first of all we have to select all the classlist then we can remove  <br>
+                
+                const elements = document.getElementById('element');
+                elements.classlist.remove("bangladesh")
+                
+            </p>
+      
+        </div>
+      
     </main>
 
 <script src="questions.js"></script>
