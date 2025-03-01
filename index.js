@@ -246,5 +246,5 @@ document.getElementById("date").innerText = new Date().toDateString();
 document
   .getElementById("discover-something")
   .addEventListener("click", function () {
-    window.location.href = "/questions.html";
+    window.location.href = "questions.html";
   });
